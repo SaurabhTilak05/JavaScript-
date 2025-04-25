@@ -4,17 +4,16 @@
 	Input: n = 7
 	Output: Prime
 */
-let n=6;
+let n=7;
 let count=0;
-for(let i=1;i<=n;i++)
+for(let i=2;i<=n/2;i++)
 {
 	if(n%i==0)
 	{
 		count++;
 	}
 }	
-
-if(count==2)
+if(count==0)
 {
 	console.log("Prime number");
 }
