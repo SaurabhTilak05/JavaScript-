@@ -7,16 +7,11 @@ Output: 0 1 1 2 3
 let lim=5;
 let f1=0;
 let f2=1;
-let i=1;
-console.log(f1);
-console.log(f2);
-
-while(i<lim)
-{
+while(lim>0)
+{	console.log(f1);
 	let fib=f1+f2;
 	f1=f2;
 	f2=fib;
-	console.log(fib);
-	i++;
+	lim--;
 }
 
